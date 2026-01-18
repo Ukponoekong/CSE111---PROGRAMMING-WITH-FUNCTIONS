@@ -73,7 +73,7 @@ elif current_day in ["Tuesday", "Wednesday"] and subtotal < 50:
     print()
 
 else:
-    #Sales tax calculations
+    #Sales tax calculations and round() function to round up the sales tax
     sales_tax = round(subtotal * (6 / 100), 2)
     total_amount = round(subtotal + sales_tax, 2)
 
